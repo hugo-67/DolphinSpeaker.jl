@@ -21,6 +21,7 @@ module DolphinSpeaker
 
     # from config.jl
     export set_device__ophk_acoustic_D3, set_device__calf_hk, set_device__hk_clicker, set_device__ophk_acoustic_D3_clicker
+    export set_device__hydromoth_dugong
     export with_clicker_calibration, set_device__ophk_acoustic_D3_clicker_A, set_device__ophk_acoustic_D3_clicker_B
 
     # Thin wrappers: ClickerCalibration.jl loads lazily via preset_bridge.jl's _ensure_clicker_module.
